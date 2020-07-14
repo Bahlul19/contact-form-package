@@ -1,0 +1,21 @@
+{
+    "name": "wolf/contact",
+    "description": "This will send an email to the admin and save the data into the database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bahlul Siddiquee",
+            "email": "bahlul.tausif@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "Bahlul\\Contact\\": "src/"
+        }
+    }
+
+}

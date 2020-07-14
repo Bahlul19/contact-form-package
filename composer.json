@@ -42,7 +42,8 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests/"
+            "Tests\\": "tests/",
+            "Bahlul\\Contact\\": "package/contact/src/"
         }
     },
     "minimum-stability": "dev",
