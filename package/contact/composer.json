@@ -16,6 +16,13 @@
         "psr-4": {
             "Bahlul\\Contact\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bahlul\\Contact\\ContactServiceProvider"
+            ]
+        }
     }
 
 }
